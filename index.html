@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:wght@400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Poppins:wght@400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+
+</head>
+
+<body>
+
+
+  <header class="hero">
+
+    <nav class="nav container">
+      <!-- container me permitira contener a todos los elementos y la seccion del nav para que no sobrepase cierto tamaño y ademas se centre-->
+
+      <figure class="nav-logo">
+        <img src="images/logo.svg" alt="" class="nav-logo-img">
+      </figure>
+
+      <ul class="nav-lista">
+
+        <li class="nav-link"><a href="#" class="nav-enlace">Features</a></li>
+        <li class="nav-link"><a href="#" class="nav-enlace">Team</a></li>
+        <li class="nav-link"><a href="#" class="nav-enlace">Sing In</a></li>
+
+      </ul>
+
+    </nav>
+
+    <section class="content-main container">
+
+      <figure class="content-foto">
+        <img src="images/illustration-1.svg" alt="" class="content-foto-img">
+      </figure>
+
+      <article class="content-texto">
+
+        <h1 class="content-titulo">All your files in one secure location, accessible anywhere.</h1>
+        <p class="content-parrafo">Fylo stores your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family, and co-workers.</p>
+
+        <form action="" class="content-contact">
+
+          <input type="email" id="email" name="email" class="content-input" placeholder="Enter your email.">
+          <label for="email"></label>
+          <input type="submit" id="boton" name="boton" value="Get Started" class="content-input content-input--modif">
+
+        </form>
+
+      </article>
+
+    </section>
+
+  </header>
+
+
+  <main class="main">
+
+    <section class="productive container">
+
+      <!-- <div class="productive-container container"> -->
+
+      <figure class="productive-foto">
+        <img src="images/illustration-2.svg" alt="" class="productive-foto-img">
+      </figure>
+
+      <section class="productive-main">
+
+        <!-- <div class="productive-texto"> -->
+
+        <h2 class="productive-titulo">Stay productive, wherever you are</h2>
+        <p class="productive-parrafo">Never let location be an issue when accessing your files. Fylo has you covered
+          for all of your file storage needs.</p>
+        <p class="productive-parrafo">Securely share files and folders with friends, family and colleagues for live
+          collaboration. No email attachments required!</p>
+        <a href="#" class="productive-enlace">See how Fylo works
+          <img src="images/icon-arrow.svg" class="productive-flecha" alt=""></a>
+        <!-- </div> -->
+
+        <section class="fylo">
+
+        <img src="images/icon-quotes.svg" alt="" class="fylo-comillas-img">
+
+        <p class="fylo-parrafo">Fylo has improved our team productivity by an order of magnitude. Since making the
+          switch our team has become a well-oiled collaboration machine.</p>
+
+        <div class="fylo-content">
+
+          <img src="images/avatar-testimonial.jpg" alt="" class="fylo-avatar-img">
+
+          <div class="fylo-info">
+
+            <h3 class="fylo-name">Kyle Burton</h3>
+            <p class="fylo-ceo">Founder & CEO, Huddle</p>
+
+          </div>
+
+        </div>
+      </section>
+
+      </section>
+
+      <!-- </div> -->
+
+    </section>
+
+
+
+  </main>
+
+  <section class="contacto">
+
+    <section class="section-contacto container">
+
+      <div class="contacto-texto">
+
+        <h2 class="contacto-titulo">Get early access today</h2>
+        <p class="contacto-parrafo">It only takes a minute to sign up and our free starter tier is extremely generous.
+          If you have any questions, our support team would be happy to help you.</p>
+
+      </div>
+        <form action="" class="contacto-form">
+
+          <input type="email" id="email" name="email" class="contacto-input" placeholder="email@example.com">
+          <label for="email"></label>
+          <input type="submit" id="boton" name="boton" value="Get Started For Free" class="contacto-input modif">
+
+        </form>
+      
+    </section>
+  </section>
+
+  <footer class="footer">
+
+    <section class="footer-container container">
+
+      <!-- <div class="contenedor"> -->
+
+      <figure class="footer-icono">
+      <img src="logo-withe.svg" alt="" class="footer-icono-img">
+      </figure>
+
+      <div class="footer-contact">
+
+        <p class="footer-contacto">
+          <img src="images/icon-phone.svg" alt="" class="footer-info">Phone: +1-543-123-4567
+        </p>
+
+        <p class="footer-contacto">
+          <img src="images/icon-email.svg" alt="" class="footer-info">example@fylo.com
+        </p>
+
+      </div>
+    <!-- </div> -->
+
+      <nav class="footer-acercade">
+
+        <a href="#" class="footer-mas">About Us</a>
+        <a href="#" class="footer-mas">Jobs</a>
+        <a href="#" class="footer-mas">Press</a>
+        <a href="#" class="footer-mas">Blog</a>
+
+      </nav>
+
+      <nav class="footer-acercade">
+
+        <a href="#" class="footer-mas">Contact Us</a>
+        <a href="#" class="footer-mas">Terms</a>
+        <a href="#" class="footer-mas">Privacy</a>
+
+      </nav>
+
+      <figure class="footer-redes">
+
+        <a href="#" class="footer-media">
+          <img src="fb.svg" alt="" class="footer-social">
+        </a>
+        <a href="#" class="footer-media">
+          <img src="twitter.svg" alt="" class="footer-social">
+        </a>
+        <a href="#" class="footer-media">
+          <img src="insta.svg" alt="" class="footer-social">
+        </a>
+
+
+      </figure>
+
+    </section>
+
+  </footer>
+
+</body>
+
+</html>
